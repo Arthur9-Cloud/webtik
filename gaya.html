@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Website</title>
+    <style>
+      body,
+      h1,
+      h2,
+      p,
+      ul,
+      li {
+        margin: 0;
+        padding: 0;
+      }
+
+      .navbar {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .navbar a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+
+      .navbar a:hover {
+        background-color: crimson;
+        margin-bottom: 10px;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #333;
+        min-width: 175px;
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: #fff;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        padding-bottom: 20px;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .main-content {
+        width: 50%;
+        padding: 20px;
+        text-align: center;
+        background-color: #878787;
+        text-align: justify;
+        font-size: larger;
+        border-radius: 50px;
+        margin-top: 50px;
+      }
+
+      .main-content p {
+        color: white;
+        font-family: monospace;
+      }
+
+      .left-content {
+        width: 25%;
+        padding: 20px;
+        background-image: url(ads.png);
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 50px;
+        margin-top: 50px;
+      }
+
+      .right-content {
+        width: 25%;
+        padding: 20px;
+        background-image: url(ads.png);
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 50px;
+        margin-top: 50px;
+      }
+
+      .hbg {
+        width: 100px;
+      }
+
+      .footer p {
+        text-align: center;
+        background-color: rgba(0, 0, 255, 0.5);
+        font-size: large;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 10px 0;
+      }
+      .hbg {
+        background-image: url(3.png);
+        width: 1920px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hbg"></div>
+    <div class="navbar">
+      <div>
+        <h1>Website Pembelajaran</h1>
+      </div>
+      <div class="nav">
+        <a href="index.html">Home</a>
+
+        <div class="dropdown">
+          <a href="#">Matematika</a>
+          <div class="dropdown-content">
+            <a href="matematika.html">Aritmatika</a>
+            <a href="geometri.html">Geometri</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#">Sejarah</a>
+          <div class="dropdown-content">
+            <a href="kolonialisme.html">Kolonialisme</a>
+            <a href="imperialisme.html">Imperialisme</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#">PJOK</a>
+          <div class="dropdown-content">
+            <a href="materibola.html">Materi Bola</a>
+            <a href="kebugaran.html">Kebugaran Jasmani</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#">Fisika</a>
+          <div class="dropdown-content">
+            <a href="gaya.html">Gaya</a>
+            <a href="usaha.html">Usaha</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="left-content"></div>
+
+      <div class="main-content">
+        <h2>Materi Gaya</h2>
+        <p>
+          Gaya merupakan salah satu bagian dari materi dalam ilmu fisika dasar.
+          Satuan simbol yang akan digunakan di dalam rumus gaya sudah ditentukan
+          oleh hukum fisika. Di dalam ilmu fisika, gaya adalah tarikan atau
+          dorongan. Gaya dapat menggerakkan benda bebas atau benda yang tidak
+          terikat. Selain itu, pengertian gaya di dalam ilmu fisika adalah
+          sebuah besaran yang memiliki besar dan arah tertentu. Gaya adalah
+          sebuah interaksi yang bila bekerja sendiri akan menyebabkan suatu
+          perubahan keadaan gerak benda. Gaya dapat mempengaruhi perubahan
+          gerak, posisi atau perubahan bentuk benda. Gaya merupakan bagian yang
+          tidak dapat terlepas di dalam kehidupan manusia sehari-hari. Gaya
+          dapat dimulai dari berbagai hal. Seperti pergerakan tubuh, memindahkan
+          barang sampai melakukan sebuah pekerjaan. Dapat dikatakan bahwa gaya
+          adalah sesuatu yang selalu mengiringi aktivitas manusia. <br />
+          Sifat-sifat gaya: <br />
+          1. Gaya dapat mengubah bentuk benda <br />
+          2. Gaya dapat mengubah arah benda <br />
+          3. Gaya dapat mengubah benda yang diam menjadi bergerak <br />
+          4. Gaya dapat mengubah benda bergerak menjadi benda yang diam <br />
+          5. Gaya dapat menguhah kecepatan gerak benda <br />
+          Macam - macam gaya: <br />
+          1. Gaya Normal <br />
+          2. Gaya Otot <br />
+          3. Gaya Pegas <br />
+          4. Gaya Gravitasi <br />
+          5. Gaya Gesek <br />
+          6. Gaya Listrik <br />
+          7. Gaya Mesin <br />
+          8. Gaya Magnet <br />
+          9. Gaya Tegangan <br />
+          10. Gaya Hambatan Udara <br />
+        </p>
+      </div>
+
+      <div class="right-content"></div>
+    </div>
+
+    <div class="footer">
+      <p>Dibuat Oleh Ignatius Arthur Bagaskara IT1_14</p>
+    </div>
+  </body>
+</html>
